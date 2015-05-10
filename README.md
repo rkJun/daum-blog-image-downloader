@@ -15,10 +15,10 @@ $ casperjs init.js
 ```
 
 ### 소스내 변경해야할 값 
-LOGIN_ID : 다음로그인 아이디
-LOGIN_PWD : 다음로그인 비밀번호
-BLOG_ID : 다음블로그 아이디
-CATEGORY_ID : 대상 카테고리(비우면, 전체)
+- LOGIN_ID : 다음로그인 아이디   
+- LOGIN_PWD : 다음로그인 비밀번호   
+- BLOG_ID : 다음블로그 아이디   
+- CATEGORY_ID : 대상 카테고리(비우면, 전체)
 
 ### BLOG_ID 취득방법
 
