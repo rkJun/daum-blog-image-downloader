@@ -1,0 +1,45 @@
+{
+  "name": "daum-blog-image-downloader",
+  "version": "2.0.0",
+  "description": "다음 블로그에 올린 포스팅중에 이미지 파일을 다운로드하는 스크래핑 모듈입니다.",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-esm index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkJun/daum-blog-image-downloader.git"
+  },
+  "author": "Juntai Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkJun/daum-blog-image-downloader/issues"
+  },
+  "homepage": "https://github.com/rkJun/daum-blog-image-downloader#readme",
+  "devDependencies": {
+    "@swc-node/register": "^1.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "2.7.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "puppeteer": "^16.2.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
